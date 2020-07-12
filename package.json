@@ -1,0 +1,22 @@
+{
+  "name": "myportfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solankipawan/myPortfolio.git"
+  },
+  "author": "\"Pawan Solanki\"",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass":"^4.14.1"
+  },
+  "bugs": {
+    "url": "https://github.com/solankipawan/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/solankipawan/myPortfolio#readme"
+}
