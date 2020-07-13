@@ -1,5 +1,9 @@
 $Primary-color: #444;
 
+*{
+    box-sizing: border-box ;
+}
+
 body{
     background-color: $Primary-color;
     color: white;
