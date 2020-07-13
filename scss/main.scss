@@ -7,4 +7,27 @@ $Primary-color: #444;
 body{
     background-color: $Primary-color;
     color: white;
+    height: 100%;
+    margin: 0em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
 }
+
+// headings
+h1,
+h2,
+h3{
+    margin: 0em;
+    font-weight: 400;
+
+      &.lg-heading{
+        font-size: 5rem;
+    }
+      &.sm-heading{
+          margin-bottom: 2rem;
+          padding: 0.5em 1em;
+          background-color: lighten($color: #444, $amount: 0);
+      }
+    
+}
+

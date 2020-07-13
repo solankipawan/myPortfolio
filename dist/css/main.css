@@ -1,3 +1,26 @@
+* {
+  box-sizing: border-box; }
+
 body {
   background-color: #444;
-  color: white; }
+  color: white;
+  height: 100%;
+  margin: 0em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.5; }
+
+h1,
+h2,
+h3 {
+  margin: 0em;
+  font-weight: 400; }
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
+    font-size: 5rem; }
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.5em 1em;
+    background-color: #444444; }
