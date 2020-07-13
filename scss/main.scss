@@ -1,11 +1,12 @@
-$Primary-color: #444;
+$primary-color: #444;
+$secondary-color: rgb(8, 247, 28);
 
 *{
     box-sizing: border-box ;
 }
 
 body{
-    background-color: $Primary-color;
+    background-color: $primary-color;
     color: white;
     height: 100%;
     margin: 0em;
@@ -26,8 +27,25 @@ h3{
       &.sm-heading{
           margin-bottom: 2rem;
           padding: 0.5em 1em;
-          background-color: lighten($color: #444, $amount: 0);
+          background-color: lighten($color:#444, $amount: 0);
       }
-    
+}
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
+header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.text-secondary {
+    color: $secondary-color;
+}
+
+main {
+    padding: 4rem;
+    
+ }

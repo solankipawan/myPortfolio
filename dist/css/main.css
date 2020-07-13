@@ -24,3 +24,18 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.5em 1em;
     background-color: #444444; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%; }
+
+.text-secondary {
+  color: #08f71c; }
+
+main {
+  padding: 4rem; }
