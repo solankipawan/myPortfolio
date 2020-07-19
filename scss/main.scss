@@ -8,6 +8,7 @@ $background-opacity: 0.7;
     transition: all 0.5s ease-out;
 }
 
+
 @mixin background {
     @if $show-home-image {
         &#bg-img{
@@ -49,6 +50,7 @@ h2,
 h3{
     margin: 0em;
     font-weight: 400;
+    
 
       &.lg-heading{
         font-size: 5rem;
@@ -80,14 +82,18 @@ main {
 
     .icons{
     margin-top: 1rem;
+   
         
     a {
         padding: 0.4rem;
         &:hover {
             color: $secondary-color;
             @include easeOut();
+            
+            
         }
     }
+    
     }
     &#home {
         overflow: hidden; 
