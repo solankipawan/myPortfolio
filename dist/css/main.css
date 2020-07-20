@@ -50,7 +50,7 @@
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #101113;
+    background: black;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -58,8 +58,9 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait.png");
+      background: url("../img/portrait.jpg");
       border-radius: 50%;
+      margin: auto;
       border: solid 3px #08be9b; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
